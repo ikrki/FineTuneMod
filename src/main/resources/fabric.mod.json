@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "fine-tune",
+  "version": "${version}",
+
+  "name": "FineTune",
+  "description": "Several changes for Minecraft.",
+  "authors": [
+    "ikrki"
+  ],
+
+  "license": "CC0-1.0",
+  "icon": "assets/finetune/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "mod.ikrki.finetune.FineTune"
+    ]
+  },
+  "mixins": [
+    "finetune.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.19",
+    "minecraft": "~1.19.4",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

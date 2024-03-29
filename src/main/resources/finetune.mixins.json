@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "mod.ikrki.finetune.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "MixinFilledMapItem",
+    "MixinExplosion"
+  ],
+  "server": [
+    "MixinFilledMapItem",
+    "MixinExplosion"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
